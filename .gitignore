@@ -1,1 +1,49 @@
-node_modules;
+# Ignore node_modules directory
+node_modules/
+
+# Ignore environment-specific files
+.env
+
+# Ignore npm debug log
+npm-debug.log*
+
+# Ignore build artifacts
+/build
+/dist
+
+# Ignore dependency directories
+/dependencies
+/bower_components
+
+# Ignore IDE and editor-specific files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+
+# Ignore OS-generated files
+.DS_Store
+Thumbs.db
+
+# Ignore logs
+logs/
+*.log
+
+# Ignore npm package locks
+package-lock.json
+yarn.lock
+
+# Ignore user-specific files
+npm-debug.log*
+.pnpm
+.pnpm-debug.log*
+
+# Ignore coverage directory
+/coverage
+
+# Ignore OS or editor backup files
+*~
+
+# Ignore compiled Python files
+*.pyc
+__pycache__/
